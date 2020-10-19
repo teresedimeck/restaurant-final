@@ -8,8 +8,8 @@
         "animation": "*",
         "zones_veggies": "pub:78726-09143-35007-27068",
         "zones_kitchen": "pub:82840-70317-05537-00706",
-        "zones_oven": "pub:49434-78486-56538-23825",
         "zones_fridge": "pub:00829-64866-01576-59910",
+        "zones_oven": "pub:32860-71403-29082-23005",
         "zones_dough": "pub:79647-71789-76187-51380"
     },
     "files": [
@@ -17,13 +17,15 @@
         "main.ts",
         "README.md",
         "tilemap.g.jres",
-        "tilemap.g.ts"
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.2.6",
+        "target": "1.3.11",
         "targetId": "arcade"
     },
     "supportedTargets": [
