@@ -1,0 +1,33 @@
+{
+    "name": "Restaurant #2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.3",
+        "color-coded-tilemap": "*",
+        "animation": "*",
+        "zones_veggies": "pub:78726-09143-35007-27068",
+        "zones_kitchen": "pub:82840-70317-05537-00706",
+        "zones_oven": "pub:49434-78486-56538-23825",
+        "zones_fridge": "pub:00829-64866-01576-59910",
+        "zones_dough": "pub:79647-71789-76187-51380"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
